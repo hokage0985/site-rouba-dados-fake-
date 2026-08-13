@@ -1,0 +1,14 @@
+<input id="nome" placeholder="Seu nome">
+<input id="cachorro" placeholder="Nome do cachorro">
+<button onclick="capturar()">Enviar</button>
+
+<script>
+function capturar() {
+  const nome = document.getElementById("nome").value;
+  const cachorro = document.getElementById("cachorro").value;
+
+  console.log("Dados capturados:");
+  console.log("Nome:", nome);
+  console.log("Cachorro:", cachorro);
+}
+</script>
